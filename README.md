@@ -36,6 +36,8 @@ Right click on the middle pane and select Show Packet Bytes. A window should app
 
 Great! There's only one problem though, some images have a large grey, almost bad color data in the bottom half of the screen. This is also visible in the above screenshot, the last few squares in the bottom row show this.
 
+According to the Sony Camera Remote SDK API reference, the JPEG data starts with the SOI marker `FFD8` and ends with the EOI marker `FFD9`. As I can't seem to find the end marker in my string that I captured, my guess is that the data is cut off prematurely. This might be due to USBPcap or Wireshark.
+
 ### libusb/pyusb
 
 I also (briefly) investigated accessing the data myself, using libusb. There's only one problem - I don't know anything about writing USB interfaces. But I tried anyway.
