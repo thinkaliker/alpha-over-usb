@@ -1,6 +1,9 @@
 # alpha-over-usb
 RESEARCH ONLY: sniffing live imagery over USB for Sony Alpha cameras
 
+## 2020-09-18 update
+Apparently Sony published their webcam software a DAY after I posted this initially. [Link here](https://support.d-imaging.sony.co.jp/app/webcam/l/download/index.php) Oh well. The below is still up for historical purposes.
+
 ## Summary
 I own a Sony Alpha DSLR (a6300) and want to use it as a USB webcam. I heard rumors of Sony providing a firmware update but can't find a single source that says this is true. In the meantime, Sony themselves recommend either using a capture card, or the third party solution of OBS capturing the Imaging Edge Desktop - Remote viewfinder and outputting that to a virtual webcam.
 
